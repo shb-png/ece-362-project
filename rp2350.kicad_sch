@@ -6126,6 +6126,204 @@
 		)
 		(uuid "ffc7c688-1a99-4e3e-83b3-ba3c154a2a23")
 	)
+	(hierarchical_label "SLA"
+		(shape input)
+		(at 322.58 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03a3606a-d3be-4738-9867-befc9fa18c7e")
+	)
+	(hierarchical_label "VGA_B"
+		(shape input)
+		(at 325.12 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53c6ee9a-aba7-4e85-af61-51e66c9ff9d5")
+	)
+	(hierarchical_label "VGA_H_SYNC"
+		(shape input)
+		(at 422.91 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ac1835c-bc32-4483-9769-6f2272b661f3")
+	)
+	(hierarchical_label "sd_miso"
+		(shape output)
+		(at 330.2 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c0ea5dc-07cb-487c-9c51-97f6875c45fb")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 322.58 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65529f8e-f14c-42cd-8004-71c2fedc2675")
+	)
+	(hierarchical_label "sd_detect"
+		(shape output)
+		(at 373.38 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "680d08f9-bd2c-4907-b302-09c00f49db89")
+	)
+	(hierarchical_label "VGA_G_H"
+		(shape input)
+		(at 325.12 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8952ee51-af4d-49b1-84ff-af2de99154e2")
+	)
+	(hierarchical_label "AUDIO_PWM"
+		(shape input)
+		(at 326.39 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91f95853-9abd-422b-afa8-b4282901f18a")
+	)
+	(hierarchical_label "VGA_R"
+		(shape input)
+		(at 325.12 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ce1548f-93e5-414c-8aff-20eff9770e46")
+	)
+	(hierarchical_label "VGA_V_SYNC"
+		(shape input)
+		(at 422.91 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b32f376d-0a90-41c7-824d-98f314627bb9")
+	)
+	(hierarchical_label "CS3"
+		(shape input)
+		(at 327.66 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b386b3a6-5206-44c4-8940-0a87609d56cb")
+	)
+	(hierarchical_label "sd_cs"
+		(shape input)
+		(at 330.2 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdbdbec5-77bb-4fb6-a4dc-a0ab773f38b0")
+	)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 322.58 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c98ae9a1-50d6-4196-9ba0-c870038fb877")
+	)
+	(hierarchical_label "CS2"
+		(shape input)
+		(at 327.66 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dea4efa3-bfee-4c42-b4c8-f19c3157784a")
+	)
+	(hierarchical_label "CS1"
+		(shape input)
+		(at 327.66 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5ea0330-f29f-434d-a394-a64f16987b16")
+	)
+	(hierarchical_label "sd_mosi"
+		(shape output)
+		(at 330.2 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed02b639-f0d7-4dbe-ba39-301b991f925d")
+	)
+	(hierarchical_label "sd_clk"
+		(shape input)
+		(at 330.2 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9316e0b-1c7d-4322-84ee-31bf14b7d749")
+	)
+	(hierarchical_label "VGA_G_L"
+		(shape input)
+		(at 325.12 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9bb5094-89d8-4305-9b7d-edd82c7fed23")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 262.89 146.05 0)
