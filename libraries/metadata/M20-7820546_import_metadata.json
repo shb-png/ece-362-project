@@ -1,0 +1,115 @@
+{
+  "part_name": "M20-7820546",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb",
+  "source_zip": "/Users/shriyab/Downloads/F26/ECE362/project_symbols/LIB_M20-7820546.zip",
+  "imported_at": "2026-11-03T18:03:27",
+  "imported_assets": {
+    "selected_symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty",
+    "selected_model_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/3dmodels",
+    "symbol_libraries": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "M20-7820546/KiCad/M20-7820546.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "M20-7820546"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/RHDR5W70P0X254_1X5_1310X250X850P.kicad_mod"
+    ],
+    "models_3d": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/3dmodels/M20-7820546.stp"
+    ],
+    "datasheets": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/metadata/How_To_Use_Models.pdf"
+    ],
+    "source_zip": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/source_zips/M20-7820546_LIB_M20-7820546.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/RHDR5W70P0X254_1X5_1310X250X850P.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "M20-7820546.stp"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/RHDR5W70P0X254_1X5_1310X250X850P.kicad_mod",
+          "model": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/3dmodels/M20-7820546.stp",
+          "score": 10
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "M20-7820546",
+        "default_footprint": "Project_Components:RHDR5W70P0X254_1X5_1310X250X850P",
+        "footprint_filters": [
+          "Project_Components:RHDR5W70P0X254_1X5_1310X250X850P"
+        ],
+        "ki_fp_filters_value": "Project_Components:RHDR5W70P0X254_1X5_1310X250X850P",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:RHDR5W70P0X254_1X5_1310X250X850P"
+        ]
+      }
+    ],
+    "symbol_style_update": {
+      "symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+      "updated": true,
+      "styled_symbol_names": [
+        "M20-7820546"
+      ],
+      "style": {
+        "line_width_mm": 0.254,
+        "line_color": "#840000",
+        "fill_mode": "kicad_default",
+        "fill_color": "#FFFFC2",
+        "font_size_mm": 1.27,
+        "pin_length_mm": 2.54,
+        "use_default_colors": true
+      }
+    },
+    "backups": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_18-03-27/libraries/metadata/How_To_Use_Models.pdf",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_18-03-27/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_18-03-27/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_18-03-27/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_18-03-27/libraries/Project_Components.pretty/RHDR5W70P0X254_1X5_1310X250X850P.kicad_mod",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_18-03-27/fp-lib-table",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_18-03-27/sym-lib-table"
+    ],
+    "skipped_existing": false,
+    "existing_assets": {
+      "already_exists": false,
+      "source_symbol_names": [
+        "M20-7820546"
+      ],
+      "existing_footprints": []
+    }
+  }
+}

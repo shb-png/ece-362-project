@@ -43,6 +43,56 @@
 				(justify left top)
 			)
 		)
+		(pin "sd_detect" output
+			(at 68.58 48.26 0)
+			(uuid "19b6f767-7d2b-48c1-bbe2-7e2a6a2dbb8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sd_cs" input
+			(at 68.58 52.07 0)
+			(uuid "e00a2e82-0dae-465b-a8b7-9bf5ab5f20ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sd_mosi" output
+			(at 68.58 57.15 0)
+			(uuid "b74239c6-f93f-4229-a751-a737d1396241")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sd_clk" input
+			(at 68.58 60.96 0)
+			(uuid "405f9b39-4362-4ce3-b347-d7a4b4b017d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sd_miso" output
+			(at 68.58 66.04 0)
+			(uuid "8c9c2328-dfb9-4e13-95b7-0a08c431f09b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ece-362-project-pcb"
 				(path "/58f01920-c7c0-4199-855d-323bdba45111"
@@ -135,6 +185,66 @@
 				(justify left top)
 			)
 		)
+		(pin "CS1" input
+			(at 66.04 114.3 0)
+			(uuid "42bb3e2c-46b5-4596-9e83-ae7ea24b86dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SLA" input
+			(at 66.04 118.11 0)
+			(uuid "c40965eb-d588-4e69-b8a4-1af3bcd1cdb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 66.04 123.19 0)
+			(uuid "6427e8e7-a3c7-4ed8-a72b-be64d3ba9f44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS2" input
+			(at 66.04 127 0)
+			(uuid "0f48d613-132b-4765-83fd-cdfd15e06579")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS3" input
+			(at 66.04 132.08 0)
+			(uuid "187b2ccc-f21f-4306-9e47-0e02012c8ea6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" input
+			(at 66.04 135.89 0)
+			(uuid "6f2a8ae0-a02f-440d-8c37-a194f0c02c85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ece-362-project-pcb"
 				(path "/58f01920-c7c0-4199-855d-323bdba45111"
@@ -181,6 +291,16 @@
 				(justify left top)
 			)
 		)
+		(pin "AUDIO_PWM" input
+			(at 215.9 111.76 180)
+			(uuid "8d890d0f-266a-4a37-91eb-ef7c1d318af9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ece-362-project-pcb"
 				(path "/58f01920-c7c0-4199-855d-323bdba45111"
@@ -225,6 +345,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VGA_V_SYNC" input
+			(at 210.82 46.99 180)
+			(uuid "435bdf77-63e3-443a-b518-8bcd694d5fd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VGA_G_L" input
+			(at 210.82 50.8 180)
+			(uuid "cca02af6-7701-4317-b9ce-756fc7ba2515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VGA_B" input
+			(at 210.82 54.61 180)
+			(uuid "47912e55-fa26-4519-b74a-5b6459e37431")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VGA_G_H" input
+			(at 210.82 59.69 180)
+			(uuid "b0185ca0-2bd3-4d29-9028-137d8722efba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VGA_H_SYNC" input
+			(at 210.82 63.5 180)
+			(uuid "1525950e-d4ce-4c44-8d99-703f92ce6202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VGA_R" input
+			(at 210.82 68.58 180)
+			(uuid "a82331fa-9bbc-4698-9d48-b32f787b9f73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

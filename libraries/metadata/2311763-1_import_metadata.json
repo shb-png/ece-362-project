@@ -1,0 +1,116 @@
+{
+  "part_name": "2311763-1",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb",
+  "source_zip": "/Users/shriyab/Downloads/F26/ECE362/project_symbols/LIB_2311763-1/2311763-1/KiCad.zip",
+  "imported_at": "2026-11-03T15:33:18",
+  "imported_assets": {
+    "selected_symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty",
+    "selected_model_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/3dmodels",
+    "symbol_libraries": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "KiCad/2311763-1.kicad_sym",
+      "__MACOSX/KiCad/._2311763-1.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "2311763-1"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      },
+      {
+        "target_symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [],
+        "replaced_existing_symbols": [],
+        "updated": false,
+        "message": "No symbol blocks found in source symbol library."
+      }
+    ],
+    "footprints": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/23117631.kicad_mod",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/_23117631.kicad_mod"
+    ],
+    "models_3d": [],
+    "datasheets": [],
+    "source_zip": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/source_zips/2311763-1_KiCad.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [],
+      "skipped_footprints": [
+        "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/23117631.kicad_mod",
+        "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/_23117631.kicad_mod"
+      ],
+      "available_models": [],
+      "model_matches": []
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "2311763-1",
+        "default_footprint": "Project_Components:23117631",
+        "footprint_filters": [
+          "Project_Components:23117631",
+          "Project_Components:_23117631"
+        ],
+        "ki_fp_filters_value": "Project_Components:23117631 Project_Components:_23117631",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:23117631",
+          "Project_Components:_23117631"
+        ]
+      }
+    ],
+    "symbol_style_update": {
+      "symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+      "updated": true,
+      "styled_symbol_names": [
+        "2311763-1"
+      ],
+      "style": {
+        "line_width_mm": 0.254,
+        "line_color": "#840000",
+        "fill_mode": "kicad_default",
+        "fill_color": "#FFFFC2",
+        "font_size_mm": 1.27,
+        "pin_length_mm": 2.54,
+        "use_default_colors": true
+      }
+    },
+    "backups": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/libraries/Project_Components.pretty/23117631.kicad_mod",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/libraries/Project_Components.pretty/_23117631.kicad_mod",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/fp-lib-table",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-03_15-33-18/sym-lib-table"
+    ],
+    "skipped_existing": false,
+    "existing_assets": {
+      "already_exists": false,
+      "source_symbol_names": [
+        "2311763-1"
+      ],
+      "existing_footprints": []
+    }
+  }
+}
