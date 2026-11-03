@@ -1,10 +1,240 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
-	(uuid 58f01920-c7c0-4199-855d-323bdba45111)
+	(generator_version "10.0")
+	(uuid "58f01920-c7c0-4199-855d-323bdba45111")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 31.75 43.18)
+		(size 36.83 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "62fc7555-e118-4e0e-bcd5-3b78fe31e3b1")
+		(property "Sheetname" "sd_card"
+			(at 31.75 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd_card.kicad_sch"
+			(at 31.75 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ece-362-project-pcb"
+				(path "/58f01920-c7c0-4199-855d-323bdba45111"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 48.26)
+		(size 82.55 97.79)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77ea26d4-eac3-4c5d-901e-a925c6d3f51d")
+		(property "Sheetname" "rp2350"
+			(at 99.06 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2350.kicad_sch"
+			(at 99.06 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ece-362-project-pcb"
+				(path "/58f01920-c7c0-4199-855d-323bdba45111"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 110.49)
+		(size 35.56 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "80edbe12-9348-414c-85af-41fd28b79ce9")
+		(property "Sheetname" "capacitve_sensor"
+			(at 30.48 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "capacitive_sensor.kicad_sch"
+			(at 30.48 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ece-362-project-pcb"
+				(path "/58f01920-c7c0-4199-855d-323bdba45111"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 105.41)
+		(size 34.29 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a7654965-d8fb-4fc6-9b6f-02eed5b172ae")
+		(property "Sheetname" "audio"
+			(at 215.9 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 215.9 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ece-362-project-pcb"
+				(path "/58f01920-c7c0-4199-855d-323bdba45111"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 41.91)
+		(size 46.99 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e8c7c617-ca54-41a8-b58f-d0f2b6203c89")
+		(property "Sheetname" "vga"
+			(at 210.82 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vga.kicad_sch"
+			(at 210.82 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ece-362-project-pcb"
+				(path "/58f01920-c7c0-4199-855d-323bdba45111"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
