@@ -1,0 +1,115 @@
+{
+  "part_name": "W25Q128JVSIQ",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb",
+  "source_zip": "/Users/shriyab/Downloads/F26/ECE362/project_symbols/LIB_W25Q128JVSIQ.zip",
+  "imported_at": "2026-11-04T06:50:40",
+  "imported_assets": {
+    "selected_symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty",
+    "selected_model_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/3dmodels",
+    "symbol_libraries": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "W25Q128JVSIQ/KiCad/W25Q128JVSIQ.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "W25Q128JVSIQ"
+        ],
+        "replaced_existing_symbols": [],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/SOIC127P790X216-8N.kicad_mod"
+    ],
+    "models_3d": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/3dmodels/W25Q128JVSIQ.stp"
+    ],
+    "datasheets": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/metadata/How_To_Use_Models.pdf"
+    ],
+    "source_zip": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/source_zips/W25Q128JVSIQ_LIB_W25Q128JVSIQ.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/SOIC127P790X216-8N.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "W25Q128JVSIQ.stp"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.pretty/SOIC127P790X216-8N.kicad_mod",
+          "model": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/3dmodels/W25Q128JVSIQ.stp",
+          "score": 10
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "W25Q128JVSIQ",
+        "default_footprint": "Project_Components:SOIC127P790X216-8N",
+        "footprint_filters": [
+          "Project_Components:SOIC127P790X216-8N"
+        ],
+        "ki_fp_filters_value": "Project_Components:SOIC127P790X216-8N",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:SOIC127P790X216-8N"
+        ]
+      }
+    ],
+    "symbol_style_update": {
+      "symbol_library": "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/Project_Components.kicad_sym",
+      "updated": true,
+      "styled_symbol_names": [
+        "W25Q128JVSIQ"
+      ],
+      "style": {
+        "line_width_mm": 0.254,
+        "line_color": "#840000",
+        "fill_mode": "kicad_default",
+        "fill_color": "#FFFFC2",
+        "font_size_mm": 1.27,
+        "pin_length_mm": 2.54,
+        "use_default_colors": true
+      }
+    },
+    "backups": [
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-04_06-50-40/libraries/metadata/How_To_Use_Models.pdf",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-04_06-50-40/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-04_06-50-40/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-04_06-50-40/libraries/Project_Components.kicad_sym",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-04_06-50-40/libraries/Project_Components.pretty/SOIC127P790X216-8N.kicad_mod",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-04_06-50-40/fp-lib-table",
+      "/Users/shriyab/Downloads/F26/ECE362/project/ece-362-project-pcb/libraries/backups/2026-11-04_06-50-40/sym-lib-table"
+    ],
+    "skipped_existing": false,
+    "existing_assets": {
+      "already_exists": false,
+      "source_symbol_names": [
+        "W25Q128JVSIQ"
+      ],
+      "existing_footprints": []
+    }
+  }
+}

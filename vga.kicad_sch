@@ -3427,16 +3427,6 @@
 			"qqUTOAAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "VGA_H_SYNC"
-		(at 167.64 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ee5f3dc-d85e-416f-9720-09bc0f53f79f")
-	)
 	(label "VGA_RED"
 		(at 128.27 63.5 0)
 		(effects
@@ -3466,16 +3456,6 @@
 			(justify left bottom)
 		)
 		(uuid "ca9043ce-4698-483c-af05-7faf86c3e1de")
-	)
-	(label "VGA_V_SYNC"
-		(at 167.64 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2c5763a-07d0-47bb-bb30-a3b5475d0b33")
 	)
 	(hierarchical_label "VGA_V_SYNC"
 		(shape input)
@@ -3785,7 +3765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -4021,7 +4001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -4102,7 +4082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -4182,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 110.49 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -4262,7 +4242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 189.23 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -4342,7 +4322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 189.23 67.818 90)
 			(hide yes)
 			(show_name no)
