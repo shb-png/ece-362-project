@@ -124,7 +124,7 @@
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
-			(plotframeref no)
+			(plotframeref yes)
 			(mode 1)
 			(useauxorigin no)
 			(pdf_front_fp_property_popups yes)
@@ -143,9 +143,9 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -157,13 +157,13 @@
 		(descr "1725656-5")
 		(tags "Connector")
 		(property "Reference" "J3"
-			(at 1.27 0 0)
+			(at -3 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "72905361-14dc-4d91-a6fb-ae4ff512a2e6")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -569,8 +569,9 @@
 			(uuid "bf5c6cee-12c9-40fb-b11e-abc31ff47613")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -722,13 +723,13 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "CR1"
-			(at 0 -1.85 0)
+			(at -0.5 -1.25 0)
 			(layer "F.SilkS")
 			(uuid "7eccceef-f2c6-4418-bf5e-116d288bb24a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1026,13 +1027,13 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.68 90)
+			(at 2.25 0.5 180)
 			(layer "F.SilkS")
 			(uuid "0fbf3c42-787f-4526-9435-2818a441fc20")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1210,13 +1211,13 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 -1.68 90)
+			(at 2.25 -0.27 180)
 			(layer "F.SilkS")
 			(uuid "17b575ba-08ae-4108-9e4b-e2d7d740b099")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1394,13 +1395,13 @@
 		(descr "C&K Components SPST SMD PTS647 Series 4.5mm Tact Switch, 3.8mm Height, see https://www.ckswitches.com/media/2567/pts647.pdf")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW1"
-			(at 0 -4.05 0)
+			(at 2.5 -3.6 0)
 			(layer "F.SilkS")
 			(uuid "2331fb3d-ff9b-480f-af40-38cc3d9116fc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1667,8 +1668,8 @@
 			(uuid "57801784-7330-48f6-acfc-d61bd2966673")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1820,13 +1821,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
-			(at 0 -1.65 90)
+			(at -2.5 0.5 180)
 			(layer "F.SilkS")
 			(uuid "3a799a94-823f-4b24-aa5a-88a94e329123")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1978,13 +1979,13 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.68 90)
+			(at -3 0 180)
 			(layer "F.SilkS")
 			(uuid "07ad0794-bc9f-4115-85e3-b2d57bb4d552")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2162,13 +2163,13 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.68 90)
+			(at -2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "af5ad34e-87e0-4f37-9c30-7c5b83ae3de1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2346,13 +2347,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.65 0)
+			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "92c30745-1bec-45dc-9132-f08eaf028788")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2535,8 +2536,8 @@
 			(uuid "85cc6c70-1b15-4b1b-8ad5-78f0bb078be3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2688,13 +2689,13 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U9"
-			(at 0 -2 0)
+			(at 1 1.5 0)
 			(layer "F.SilkS")
 			(uuid "243056ff-461f-4d45-809a-91e4926a00f0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3001,8 +3002,8 @@
 			(uuid "4158fe41-2e1f-4d29-a5e7-9b18cc1f8bd7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3159,8 +3160,8 @@
 			(uuid "7089a216-24f0-4c32-b8e9-d7bb57a2cce7")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3676,8 +3677,8 @@
 			(uuid "0b7fa353-0106-448b-bbe4-4fe2b2b9e2dd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3855,13 +3856,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 0 -1.65 0)
+			(at 1 1.5 0)
 			(layer "F.SilkS")
 			(uuid "e8340534-d8da-4421-bfa7-dfe3163b6a48")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4039,13 +4040,13 @@
 		(descr "MEM2075-00-140-01-A")
 		(tags "Connector")
 		(property "Reference" "J6"
-			(at 0 0 0)
+			(at 8.75 -9.5 0)
 			(layer "F.SilkS")
 			(uuid "226fb719-85d8-49e5-9888-a65cd6a56297")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4529,13 +4530,14 @@
 		(at 94.5 75)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y1"
-			(at 0 -2.45 0)
+			(at 3 0 0)
 			(layer "F.SilkS")
 			(uuid "f04635e8-884d-4f0c-9179-8d182caae9f6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -4736,13 +4738,14 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.68 0)
+			(at -2.25 0.5 0)
 			(layer "F.SilkS")
 			(uuid "62228764-8067-4dc1-ad96-2abb86dd9250")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -4920,13 +4923,13 @@
 		(descr "C&K Components SPST SMD PTS647 Series 4.5mm Tact Switch, 3.8mm Height, see https://www.ckswitches.com/media/2567/pts647.pdf")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW2"
-			(at 0 -4.05 0)
+			(at 5.375 2.4 0)
 			(layer "F.SilkS")
 			(uuid "c80474d7-2c3e-42eb-88ac-623bf2d164f8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5193,8 +5196,8 @@
 			(uuid "fdce8406-db66-4417-805a-ac6befa05393")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5372,13 +5375,13 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "PD1"
-			(at 0 -1.65 0)
+			(at -2.5 -0.5 0)
 			(layer "F.SilkS")
 			(uuid "a9c42a7e-f437-4eca-b147-8fd819c1a0d1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5612,8 +5615,8 @@
 			(uuid "631cf459-7db5-4c8b-9493-bee7a5bbff1b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6919,8 +6922,8 @@
 			(uuid "bb11607a-3cca-4058-a2df-89eab46a0ad8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7072,13 +7075,13 @@
 		(descr "CT-94EY103-1")
 		(tags "Switch")
 		(property "Reference" "S1"
-			(at 1.3 2.5 90)
+			(at 5.25 -2.48 180)
 			(layer "F.SilkS")
 			(uuid "c33b3cb2-fedd-4bc2-a93e-52eb4d6109cb")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7466,20 +7469,20 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 -1.65 0)
+			(at 3 0 0)
 			(layer "F.SilkS")
-			(uuid "9885f7e9-af6a-46f3-9b6a-27b7ea52265b")
+			(uuid "16ff9400-10dc-407c-bae7-b2141a42604e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "33"
 			(at 0 1.65 0)
 			(layer "F.Fab")
-			(uuid "d1f1f5c4-0b37-4daa-af4c-b7b09548ccc6")
+			(uuid "09c1d761-bd41-4dcd-bbbf-6a4bea6d7dbd")
 			(effects
 				(font
 					(size 1 1)
@@ -7491,7 +7494,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbf2bd47-333f-406a-95b7-6498a3ee72ee")
+			(uuid "2cb20565-dc76-4a28-9abe-8f410be5779c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +7505,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03f7fe4e-dc09-49f0-ad3c-0bd6329d1e89")
+			(uuid "be1da2a0-1b81-40ec-9ba0-7eebfaf8fa56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,13 +7653,14 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.68 0)
+			(at -0.75 1.5 0)
 			(layer "F.SilkS")
 			(uuid "a3a68931-f5db-4fcc-a9ba-612670eb921f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
+					(bold yes)
 				)
 			)
 		)
@@ -7834,13 +7838,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at 0 -1.65 0)
+			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "0003b815-06ea-433e-9834-c9a64b7ced17")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8018,20 +8022,20 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.68 0)
+			(at -2.55 0 0)
 			(layer "F.SilkS")
-			(uuid "c90dc7b4-b4b6-4551-8840-a39c59ed57c3")
+			(uuid "a214999e-6c3f-4219-bd7a-c53c9e2445f1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "4.7u"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "15c25488-d566-4fb6-b63d-137a72773ada")
+			(uuid "655214e5-7f55-4570-a4ac-85c84d1ce049")
 			(effects
 				(font
 					(size 1 1)
@@ -8043,7 +8047,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2da324cb-b1bf-4914-9be4-efc3934fef1b")
+			(uuid "00a42496-0c8f-420c-a2ed-9e31643a4952")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,7 +8058,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b7fabaf-c80d-4244-b3b2-73171b882033")
+			(uuid "9019dd51-ae00-4414-8e62-ef49047aaeb4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,20 +8206,20 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.68 90)
+			(at 2 0 180)
 			(layer "F.SilkS")
-			(uuid "1b274969-0b5b-498b-ba16-04334eb19738")
+			(uuid "cc881b7f-b05b-4681-9f79-8612909a077c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "4.7u"
 			(at 0 1.68 90)
 			(layer "F.Fab")
-			(uuid "07a17ec7-e44d-4498-9394-0f01100d469b")
+			(uuid "e13a1dd3-d23b-4917-9678-228bdf806ac0")
 			(effects
 				(font
 					(size 1 1)
@@ -8227,7 +8231,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad087509-0737-4104-af4f-634ec2e33e34")
+			(uuid "5a2ea4dc-f705-4b44-b043-f0d0a6b24b3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8242,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63fff30e-d32c-410f-b128-d4dfe0d17d8a")
+			(uuid "13ba1d4f-8aed-4dbf-a8a5-f5e34ba26b69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,13 +8390,13 @@
 		(descr "USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf")
 		(tags "USB C Type-C Receptacle SMD")
 		(property "Reference" "J1"
-			(at 0 -5.5 90)
+			(at 6 3 180)
 			(layer "F.SilkS")
 			(uuid "9db49c39-cc84-4537-bb7a-25dcba9e4706")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8843,8 +8847,8 @@
 			(uuid "e7cc4758-7f0c-4062-88db-11fef50a1be7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9027,8 +9031,8 @@
 			(uuid "9b156832-c652-46f4-a6d3-f88b2012f104")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9459,13 +9463,13 @@
 		(descr "SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162)")
 		(tags "SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1 FPT-8P-M08")
 		(property "Reference" "U1"
-			(at 0 -3.6 90)
+			(at -2 4 180)
 			(layer "F.SilkS")
 			(uuid "45848ab4-a8d8-4d50-b7c7-82eab8cfbcb4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9841,13 +9845,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
-			(at 0 -1.65 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "22724e9a-0972-449b-8b48-c2967565a347")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9999,13 +10003,13 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "PD2"
-			(at 0 -1.65 0)
+			(at 1 1.25 0)
 			(layer "F.SilkS")
 			(uuid "8b28d743-882a-4b83-9e6f-c138645365dd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10234,13 +10238,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
-			(at 0 -1.65 90)
+			(at -2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "14466114-5c98-4761-b52d-70824be5a06d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10392,13 +10396,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 0 -1.65 90)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
 			(uuid "827ac04e-235e-49e6-8025-0a7cce036956")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10550,13 +10554,13 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.68 90)
+			(at -2 0 180)
 			(layer "F.SilkS")
 			(uuid "049bda75-5b1f-4aec-8d78-c71b4773b127")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10734,13 +10738,13 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.68 0)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "93ab9b81-0396-4461-962c-597f1838d8c4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10918,13 +10922,13 @@
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U4"
-			(at 3.81 -2.33 0)
+			(at 0.035 -2.19 0)
 			(layer "F.SilkS")
 			(uuid "6b4b5898-f283-490f-bd8c-946d69a4b652")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11232,13 +11236,13 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "inductor handsolder")
 		(property "Reference" "L1"
-			(at 0 -1.55 90)
+			(at -1 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "9f2aa1b0-58fc-4829-bdb6-e58dd29bd6f3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11418,13 +11422,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
-			(at 0 -1.65 90)
+			(at -0.5 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "8b0f0eb8-c03c-4f7b-aad6-f07384918c78")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11576,13 +11580,13 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
-			(at 0 -1.65 90)
+			(at 2.5 0.5 0)
 			(layer "F.SilkS")
 			(uuid "bc7f602f-10b0-4d41-923f-405b0c5c9007")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11734,13 +11738,13 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
-			(at 0 -4.5 90)
+			(at -3 -4.5 180)
 			(layer "F.SilkS")
 			(uuid "e1905420-8f3a-4aa3-9050-0d9dac4ea80a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14516,7 +14520,7 @@
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0 2.38 0)
+			(at 0.295 2.795 0)
 			(layer "B.SilkS")
 			(uuid "19cd0304-38b0-4182-9fbe-711950e7ba3d")
 			(effects
@@ -15607,6 +15611,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "cd7fe362-2ded-4e36-96a2-fe7c5e9879d6")
+	)
+	(gr_text "TEAM B3Y\nSD CARD TESTER\n"
+		(at 70 92.5 0)
+		(layer "F.SilkS")
+		(uuid "d85cc77f-524e-4ee8-91af-63742a9da2ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 75.22 96.5)
@@ -18855,110 +18871,6 @@
 		(uuid "eb54e974-b8fd-495f-b4bf-b9e9f0637b69")
 	)
 	(segment
-		(start 100.032843 64.467157)
-		(end 100.5 64)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS1")
-		(uuid "80896243-2856-490b-acc6-f6dc77686562")
-	)
-	(segment
-		(start 91.401471 70.25)
-		(end 97.184314 64.467157)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS1")
-		(uuid "bea39cd5-da6a-4415-a17f-c35153ced042")
-	)
-	(segment
-		(start 97.184314 64.467157)
-		(end 100.032843 64.467157)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS1")
-		(uuid "c4434acf-eb52-4b4c-84cf-b971042a5091")
-	)
-	(segment
-		(start 89.95 70.25)
-		(end 91.401471 70.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS1")
-		(uuid "eb6f2400-8e8c-4c59-98e2-c97c10ccd594")
-	)
-	(segment
-		(start 98.86 63.1)
-		(end 100.5 61.46)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS2")
-		(uuid "34f68857-e793-4d2a-baef-3bfe614e2b62")
-	)
-	(segment
-		(start 100.5 60.96)
-		(end 100.04 60.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS2")
-		(uuid "4d708927-1497-46ae-83aa-64fb8690454c")
-	)
-	(segment
-		(start 91.15 69.85)
-		(end 97.9 63.1)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS2")
-		(uuid "503b3716-45f3-4868-ac0e-ff1720e3b537")
-	)
-	(segment
-		(start 91.15 69.85)
-		(end 89.95 69.85)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS2")
-		(uuid "92ae2b14-da73-4f6e-ade2-2adfe36b1c58")
-	)
-	(segment
-		(start 97.9 63.1)
-		(end 98.86 63.1)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS2")
-		(uuid "dd974a05-5002-4299-b4dd-9f8675876fe2")
-	)
-	(segment
-		(start 89.95 69.45)
-		(end 90.984314 69.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS3")
-		(uuid "282d7bbf-277e-4a2b-a801-f1c98c6d551b")
-	)
-	(segment
-		(start 99 60.42)
-		(end 100.5 58.92)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS3")
-		(uuid "4212c2e7-ce09-4d8d-8f41-8a9e5df4dc5e")
-	)
-	(segment
-		(start 99 61.434314)
-		(end 99 60.42)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS3")
-		(uuid "5f7525c9-391f-4eb9-91ae-517510f73ca1")
-	)
-	(segment
-		(start 90.984314 69.45)
-		(end 99 61.434314)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/capacitve_sensor/CS3")
-		(uuid "b85f42f3-f2d4-4d33-b3e0-597673bd6de6")
-	)
-	(segment
 		(start 67 53.74)
 		(end 65.34 52.08)
 		(width 0.2)
@@ -20372,6 +20284,110 @@
 		(layer "B.Cu")
 		(net "/rp2350/SWD")
 		(uuid "f7fc8420-2040-4529-a477-17d08e397ddb")
+	)
+	(segment
+		(start 100.032843 64.467157)
+		(end 100.5 64)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS1")
+		(uuid "80896243-2856-490b-acc6-f6dc77686562")
+	)
+	(segment
+		(start 91.401471 70.25)
+		(end 97.184314 64.467157)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS1")
+		(uuid "bea39cd5-da6a-4415-a17f-c35153ced042")
+	)
+	(segment
+		(start 97.184314 64.467157)
+		(end 100.032843 64.467157)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS1")
+		(uuid "c4434acf-eb52-4b4c-84cf-b971042a5091")
+	)
+	(segment
+		(start 89.95 70.25)
+		(end 91.401471 70.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS1")
+		(uuid "eb6f2400-8e8c-4c59-98e2-c97c10ccd594")
+	)
+	(segment
+		(start 98.86 63.1)
+		(end 100.5 61.46)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS2")
+		(uuid "34f68857-e793-4d2a-baef-3bfe614e2b62")
+	)
+	(segment
+		(start 100.5 60.96)
+		(end 100.04 60.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS2")
+		(uuid "4d708927-1497-46ae-83aa-64fb8690454c")
+	)
+	(segment
+		(start 91.15 69.85)
+		(end 97.9 63.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS2")
+		(uuid "503b3716-45f3-4868-ac0e-ff1720e3b537")
+	)
+	(segment
+		(start 91.15 69.85)
+		(end 89.95 69.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS2")
+		(uuid "92ae2b14-da73-4f6e-ade2-2adfe36b1c58")
+	)
+	(segment
+		(start 97.9 63.1)
+		(end 98.86 63.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS2")
+		(uuid "dd974a05-5002-4299-b4dd-9f8675876fe2")
+	)
+	(segment
+		(start 89.95 69.45)
+		(end 90.984314 69.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS3")
+		(uuid "282d7bbf-277e-4a2b-a801-f1c98c6d551b")
+	)
+	(segment
+		(start 99 60.42)
+		(end 100.5 58.92)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS3")
+		(uuid "4212c2e7-ce09-4d8d-8f41-8a9e5df4dc5e")
+	)
+	(segment
+		(start 99 61.434314)
+		(end 99 60.42)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS3")
+		(uuid "5f7525c9-391f-4eb9-91ae-517510f73ca1")
+	)
+	(segment
+		(start 90.984314 69.45)
+		(end 99 61.434314)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/capacitve_sensor/CS3")
+		(uuid "b85f42f3-f2d4-4d33-b3e0-597673bd6de6")
 	)
 	(segment
 		(start 76.6 65.5)
